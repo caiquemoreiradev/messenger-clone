@@ -1,0 +1,47 @@
+.app {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.content {
+  margin-bottom: 100px;
+}
+
+.form__container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  z-index: 1;
+  background-color: #e9e9eb;
+}
+.form__container .input__container {
+  width: 100%;
+  max-width: 1550px;
+  display: flex;
+}
+
+.form__container button {
+  border-radius: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+
+  background: #e9e9eb;
+
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.form__container button:disabled {
+  background: #e9e9eb;
+}
+
+.form__container .form__control {
+  display: flex;
+  align-items: center;
+}
+
+.form__container .icon__send {
+  padding: 10px;
+}
